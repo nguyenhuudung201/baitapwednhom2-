@@ -23,6 +23,24 @@ a:hover{
     color:#af7f66;
 }
 
+/* header */
+.nav .container .div{
+    float: left;
+    width: calc(33% - 20px);
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .slider{
     background-image: url("images/product-1-3.png");
     background-color: #8686863b;
@@ -76,13 +94,13 @@ img{
     margin-bottom: 68px;
 }
 
+ 
 .col{
-    width: calc(33% - 20px);
+    width: 33.3333%;
     float: left;
     padding: 10px;
     text-align: center;
     box-sizing: border-box;
-    margin: 10px;
     background-color: #f8f7f6;
 }
 
@@ -102,10 +120,7 @@ ul li{
     text-transform: uppercase ;
 }
 
-.nav .container div{
-    float: left;
-    width: 33.3333%;
-}
+
 
 .hright ul{
     float: right;
