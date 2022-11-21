@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #2c2c2c;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    background-color: #fafafa;
+    font-size: 400;
+    text-align: left;
+
+}
+.main-content{
+
+}
+
+.swiss-essence {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10rem;
+}
+
+.learn-more {
+    color: #fff;
+    background-color: #111;
+    border-color: #111;
+    border-w idth: 3px!important;
+    border-style: solid;
+    padding: .9em 1.7em;
+}
+
+.left p {
+    margin-bottom: 2rem;
+}
+
+.right img {
+    width: 652px;
+}
