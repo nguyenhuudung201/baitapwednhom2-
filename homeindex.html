@@ -5,48 +5,11 @@
     <title>Home</title>
     <link rel="stylesheet" href="css/donghocss.css">
     <link rel="stylesheet" href="css/styles.css">
-
+    <script src="https://unpkg.com/htmlincludejs"></script>
 </head>
 <body>
-    <header class="section header">
-        <div class="container">
-            AAAAAA
-        </div>
-    </header>
-    <nav class="section nav">
-        <div class="container">
-            <div class="hleft">
-                <ul>
-                    <li>
-                        <a href="#">home</a>
-                        <ul class="cal" style="display: none">
-                            <li>Watches</li>
-                            <li>Watches</li>
-                            <li>Watches</li>
-                            <li>Watches</li>
-                            <li>Watches</li>
-                        </ul>
-
-                    </li>
-                    <li>about</li>
-                    <li>blog</li>
-                    <li>shop</li>
-                    <li>features</li>
-                </ul>
-            </div>
-            <div class="hmid">
-                <img src="images/logo.png" alt="Logo">
-            </div>
-            <div class="hright">
-                <ul>
-                    <li>contact</li>
-                    <li>sigin</li>
-                    <li>car</li>
-                </ul>
-            </div>
-
-        </div>
-    </nav>
+    <include src="header.html"></include>
+    
     <section class="section main">
         <div class="container slider">
             <img src="images/product-1-3.png" alt="">
@@ -111,10 +74,6 @@
         </div>
 
     </section>
-    <footer class="section footer">
-        <div class="container">
-
-        </div>
-    </footer>
+    <include src="footer.html"></include>
 </body>
 </html>
