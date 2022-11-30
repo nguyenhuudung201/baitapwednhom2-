@@ -80,7 +80,7 @@ img{
 }
 
 .section{
-    float: flex;
+    float: left;
     width: 100%;
 }
 
@@ -89,7 +89,6 @@ img{
     width: 100%;
     margin: 0 auto;
 }
-
 
 
 
@@ -263,20 +262,55 @@ img{
 
 
 .slider{
-    background-image: url("../images/product-1-3.png");
+    /* background-image: url("../images/product-1-3.png"); */
     background-color: #af7f6633;
     background-repeat: no-repeat;
     background-position: center ;
-    height: 500px;
+    height: 848px;
 
+}
+
+.slider > .zoom{
+    padding-top: 100px;
+}
+.slider > .zoom img{
+    transform: rotate(25deg);
+}
+
+.slider > .slider-text{
+    display: flex;
+    position: relative;
+}
+.slider-text > h1 {
+    width: 50%;
+}
+
+.click >ul{
+    display: flex;
+    margin-top: -40px;
+}
+.click >ul >li{
+    width: 33.33%;
+    text-transform: uppercase;
+}
+.click >ul >li:first-child{
+    text-align: left;
+    margin-left: 20px;
+}
+.click >ul >li:last-child{
+    text-align: right;
+    margin-right: 20px;
 }
 
 
 .slider h1{
-    padding: 200px;
     vertical-align: middle;
-    font-size: 85px;
+    font-size: 190px;
+    letter-spacing: 10px;
+    font-weight: 300;
+    color: #bbb1ab;
     font-family: 'Libre Baskerville', serif;
+    margin-top: -400px;
 }
 
 
@@ -313,8 +347,8 @@ img{
 .element5 > ul,
 .after-first > ul{
     display: flex;
-    margin-right: -32px;
-    padding: 0px 20px
+    /* margin-right: -32px; */
+    padding: 0px 0px 0px 32px;
 }
 .element5 > ul >li,
 .after-first > ul >li{
@@ -552,7 +586,7 @@ img{
     margin-top: 60px;
 }
 .element5 > ul >li{
-    width: 25%;
+    width: 25% ;
 }
 /* element6 -------*/
 .element6 {

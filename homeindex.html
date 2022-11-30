@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <script type='text/javascript' src="js/app.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="https://unpkg.com/htmlincludejs"></script>
 </head>
@@ -12,8 +12,22 @@
     <include src="header.html"></include>
     <section class="section main">
         <div class="container slider">
-            <!-- <img src="images/product-1-3.png" alt=""> -->
-            <h1>Swedish Design</h1>
+            <div class="zoom">
+                <img id="imgs" src="images/slider1.webp" alt="">
+            </div>
+            <div class="slider-text">
+                <h1 id="text1">Swedish </h1>
+                <h1 id="text2">Design</h1>
+            </div>
+        </div>
+        <div class="container click">
+            <ul>
+                <li >
+                    <button onclick="previous()">previous</button>
+                </li>
+                <li >browse conlection</li>
+                <li onclick="">next</li>
+            </ul>
         </div>
     </section>
     <section class="section main">
