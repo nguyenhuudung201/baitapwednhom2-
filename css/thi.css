@@ -17,7 +17,7 @@ body{
 a{
 
     text-decoration: none;
-    color: #868686;
+    color: purple;
 }
 
 li{
@@ -41,10 +41,13 @@ img{
 body{
     background-color: #0dcaf0;
 }
+.form{
+    margin-top: 100px;
+}
 
 .register{
     background-color: Purple ;
-    padding: 10px;
+    padding: 20px;
     color: white;
 }
 
@@ -82,7 +85,28 @@ body{
     align-items: center;
     margin-right: -20px;
     position: absolute;
-    font-size: 40px;
+    font-size: 35px;
+    padding: 5px;
     color: purple;
 }
+ .checkbox{
+     display: flex;
+     padding-left: 55px;
+ }
+ .checkbox >p{
+     padding-left: 10px;
+ }
 
+.button{
+    background-color: purple;
+    padding: 10px;
+    border: none;
+    color: white;
+    width: 73%;
+    font-size: 25px;
+}
+
+.are{
+    display: flex;
+    padding-left: 95px;
+}
