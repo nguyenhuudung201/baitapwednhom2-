@@ -36,6 +36,7 @@ img{
     float: none;
     width: 458px;
     margin: 0 auto;
+    box-shadow: 5px 5px #0000004f;
 }
 
 body{
