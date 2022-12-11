@@ -499,7 +499,7 @@ img{
     padding: 0% 20% 0% 11%;
 
 }
-
+.element1-product-text > button,
 .element6 > a,
 .e3-right > div > button,
 .e1-left > div > button{
@@ -741,4 +741,342 @@ img{
     border-top: solid 0.01px #9f9d9d47 ;
 }
 
+/* product.html ------------------------------*/
+.slider-product {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/slider-product.png);
+    min-height: 342px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
 
+.slider-product > div {
+    padding: 48px 0px;
+}
+
+.slider-product {
+    color: whitesmoke;
+}
+.slider-product > div > div{
+    color: #868686;
+    display: inline-flex;
+}
+
+.slider-product h1{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 52px;
+    line-height: 52.2px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+.slider-product p,
+.slider-product a{
+    margin: 0px 5px;
+    font-size: 20px;
+}
+
+.slider-product a:hover{
+    color: whitesmoke;
+}
+
+/* element-product ------------ */
+.container-product{
+    float: none;
+    max-width: var(--theme-var-page);
+    margin: 0 auto;
+    width: 100%!important;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.element1-product{
+    margin-top: 100px;
+    display: flex;
+}
+
+.element1-product>div:first-child {
+    width: 45%;
+    background-color: #d7d6d5;
+}
+.element1-product>div:last-child {
+    width: 55%;
+    padding-left: 5em;
+    float: right;
+}
+
+.element1-product-text{
+    text-align: left;
+}
+
+.element1-product-text h1{
+    color: black;
+    margin-right: 10px;
+}
+
+.element1-product-text p{
+   letter-spacing: 0.5px;
+   line-height: 24px;
+}
+
+
+.line-through{
+    text-decoration: line-through;
+}
+.element1-product-text > div:first-child{
+    font-size: 22px;
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
+    margin-bottom: 1.3em;
+}
+
+.element1-product-text > div:last-child{
+    display: grid;
+}
+
+.element1-product-text .button {
+    display: flex;
+    margin: 15px 0px;
+}
+.element1-product-text input {
+    border: 2px solid #af7f66 ;
+    padding: 11px;
+    width: 100px;
+    font-size: 16px;
+}
+
+.element1-product-text button {
+    background-color: #242323;
+    color: floralwhite;
+    border: 2px solid #242323;
+    font-size: 18px;
+    text-transform: uppercase ;
+    padding: 16px 16px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.element1-product-text button:hover {
+    background-color: #af7f66;
+    border: 2px solid #af7f66;
+}
+.element1-product-text > .cate span {
+    padding-top: 5px;
+}
+
+.element1-product-text a {
+   color: #242323;
+}
+
+.element1-product-text a:hover {
+    color: #af7f66;
+ }
+
+ /* icon load --------- */
+ .icon{
+    display: flex;
+    -webkit-box-align: center;
+    display: flex!important;
+    align-items: center;
+    color: #242424;
+ }
+
+ .icon:hover{
+    color: #af7f66;
+ }
+
+ .icon:hover > p{
+    width: 0px;
+    transition: opacity 0.5s ease,width 1s ease,margin 1s ease;
+    
+ }
+
+ .icon:hover > span{
+    
+ }
+
+ .icon > .line{
+    color: currentColor;
+    background: currentColor;
+    width: 2.7em;
+    height: 0.125em;
+    max-height: 2px;
+ }
+
+ .icon > p {
+    width: 84px;
+    opacity: 1;
+    margin: 0px 5px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition-property: width;
+    transition-duration:3s;
+ }
+
+
+
+
+.element2-product{
+    margin-top: 100px;
+    display: flex;
+}
+
+.element2-product > ul{
+    
+    display: flex;
+}
+
+.element2-product > ul > li{
+    padding: 22px 16px;
+    text-transform: uppercase;
+    border: solid 3px #868686;
+    color: black;
+    margin-right: 5px;
+    font-size: 14px ;
+}
+
+.element2-product > ul >.active,
+.element2-product > ul > li:hover{
+    background-color: #212121;
+    color: white;
+    border-color: #212121;
+    position: relative;
+}
+.element2-product > ul > .active:hover{
+    background-color: #af7f66;
+    border-color: #af7f66;
+}
+
+/* element3-product ------------------- */
+
+.element3-product{
+    margin-top: 30px;
+}
+
+.element3-product > div{
+    /* display: none; */
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+/* information ----------*/
+.element3-product table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.element3-product > div h1{
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    color: #242424;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.element3-product tr:first-child > td,
+.element3-product tr:first-child > th{
+    border-top: 1px dotted rgba(0,0,0,.1);
+}
+.element3-product td,
+.element3-product th{
+    padding: 8px;
+    border-bottom: 1px dotted rgba(0,0,0,.1);
+}
+.element3-product th{
+    width: 150px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    color: #242424;
+}
+.element3-product tr:nth-child(2n+1)>*{
+    background-color: rgba(248,247,246,0.4);
+}
+.element3-product tr:nth-child(2n)>*{
+    background-color: rgba(0,0,0,0.03);
+}
+
+/* review --------------- */
+
+.element3-product #reviews{
+    display: flex;
+    width: 100%;
+}
+
+#reviews > div{
+    width: 50%;
+}
+
+
+.element3-product form > div{
+    display: grid;
+    margin-bottom: 1.5em;
+}
+
+.element3-product form  label{
+    margin-bottom: 3px;
+}
+
+.element3-product form textarea,
+.element3-product form  input{
+    padding: 0.7em 1.2em;
+    border: 2px solid #86868630;
+    border-radius: 0px;
+    background-color: #86868630;
+}
+
+.element3-product form textarea:hover,
+.element3-product form  input:hover{
+    border-style: solid;
+    color: #242424;
+    border-radius: 0px;
+    background-color: #ffffff;
+    border-color: #242323;
+}
+
+
+.element3-product form > .checkbox{
+    display: flex;
+}
+.element3-product form > .checkbox > input{
+    margin-right: 8px;
+}
+
+.element3-product form > button{
+    padding: 16px 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #242424;
+    text-transform: uppercase;
+}
+.element3-product form > button:hover{
+    color: #242323;
+    background-color: #af7f66;
+}
+
+/* element4-product ------------------*/
+
+.element4-product > h2{
+    margin: 100px 0px;
+    font-size: 56px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #242424;
+}
+
+.element4-product > ul {
+    display: flex;
+}
+
+.element4-product > ul >li{
+    padding: 0px 10px;
+}
