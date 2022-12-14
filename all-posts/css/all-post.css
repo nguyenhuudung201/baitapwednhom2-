@@ -1,0 +1,209 @@
+
+.billboard{
+    background-image: url("../images/h4-copyright.png");
+    text-align: center;
+    min-height: 342px;
+    padding: 15% ;
+}
+button{
+    border: none;
+    background: none;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.demo >button{
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+}
+a:hover{
+    color:#af7f66;
+}
+ a {
+     color: #242424;
+ }
+.main{
+    padding-top: 100px;
+    display: flex;
+}
+.main > .blog{
+    box-sizing: border-box;
+    width: 70%;
+}
+.main > .store{
+    box-sizing: border-box;
+    width: 30%;
+    margin: 0px 30px ;
+}
+.blog > div {
+    padding: 50px 0px;
+    border-bottom: 2px lightgray solid;
+}
+.blog >div:first-child{
+    padding-top: 0px;
+}
+.blog img{
+    width: 100%;
+}
+.content > input{
+    height: 30px;
+    background-color:#343333;
+    color: #ffffff;
+    width: 100%;
+    border-width: 0px;
+
+}
+.content1{
+    text-align: left;
+    box-sizing: border-box;
+    padding: 3em;
+}
+.content1 >h1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 20px 0px;
+}
+.content >h1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 20px 0px;
+}
+.content{
+    text-align: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.demo{
+    background-color: black;
+}
+.search{
+    display: flex;
+}
+.search  input{
+    padding: 16px;
+    font-size: 16px;
+}
+
+.search > div > a{
+    background-color: white;
+    padding: 22px;
+
+}
+
+
+.demo >h1 >a {
+    color: white;
+}
+.demo >h1 >a:hover{
+    color: #af7f66;
+}
+.content >h1{
+    color: white;
+}
+.demo1{
+    background-color: #F8F7F6;
+    box-sizing: border-box;
+    padding-top: 3em;
+    margin-top: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+}
+.demo1 >h1{
+    text-align: left;
+    color: black;
+    font-size: 1.875rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.34em;
+}
+
+.demo1 >ul>li{
+    text-align: left;
+    font-size: 15px;
+    list-style: inside;
+    padding: 10px;
+}
+
+.demo2{
+    background-color: #F8F7F6;
+    box-sizing: border-box;
+    padding-top: 3em;
+    margin-top: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.demo2>h1{
+    text-align: left;
+}
+.demo2 >div >h1{
+    text-align: left;
+}
+.demo2 >ul >li {
+    text-align: left;
+    padding: 0px;
+}
+.demo2 >div >ul >li >a{
+    box-sizing: border-box;
+    display: flex;
+}
+.demo2 >div >ul >li >a >div >p{
+    font-size: 15px;
+}
+
+.demo3{
+    background-color:#F8F7F6;
+    box-sizing: border-box;
+    padding-top: 3em;
+    margin-top: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+    height: 350px;
+}
+.demo3 >div >h1{
+    text-align: left;
+    padding-bottom: 20px;
+    color: black;
+    font-size: 30px;
+}
+.demo3 >div >ul >li{
+    border: 2px #d7d6d5 solid;
+    float: left;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    margin: 0 6px 6px 0;
+    font-size: 13px!important;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.demo3 >div >ul >li:hover{
+    background-color: #af7f66;
+
+}
+.demo3 >div >ul >li:hover > a{
+    color: white;
+}
+.demo4 {
+    background-color: #F8F7F6;
+    box-sizing: border-box;
+    padding-top: 3em;
+    margin-top: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.demo4 >div {
+    text-align: left;
+}
+.demo4 >div >h1{
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: black;
+}
+.demo4 >div >p {
+    padding: 10px;
+    font-size: 18px;
+}
+/*endmain*/
+
